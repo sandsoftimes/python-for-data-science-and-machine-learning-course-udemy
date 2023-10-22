@@ -1,0 +1,169 @@
+------------786-----------
+
+Python crash course lecture series 
+
+we are going from the crash course of Python
+
+we must have some basic Python experience before starting this course 
+
+numbers 
+
+strings 
+
+print formatting
+
+Python programming langugae 
+
+Datatypes  
+
+Lambda Expression:
+
+	-def times2(var):return var*2
+	
+	-it removes extra words
+	
+	-its anonymous function
+	
+	-lambda var:var*
+	
+	-t=lambda var:var*  
+	
+	-t(6)
+
+	-we will use lambda expression in list most commonly 
+	
+	-Example:
+	
+		-seq=[1,2,3,4,5]
+	
+		-list(map(lambda num:num*3,seq))	
+		
+	-we will use lambda function when using pandas library
+	
+	-lambda function is just a way of writing a simple function into a single line of clean code
+	
+	-if confused with lambda use simple function instead
+	
+Filter Function:
+
+	-filter(lambda num: num%2==0,seq)
+	
+	-this will give some result in binary
+	
+	-to see a viable result, use th list function wrap around all this function instead
+	
+	-list(filter(lambda num:num%2==0,seq))
+	
+	-now this will give a result in more decent/readible manner
+	
+	-what this function is doing?
+	
+	-it will take values from the list and take their mod and return the values, the filter function is filtering those values who are satisfying the condition(means the even values)
+	
+Methods:
+
+	-s='hello my name is Sam'
+	
+	-press s. and tab, u will get a list of methods
+	
+	-s.lower() will lower every single letter in a string 
+	
+	-s.upper() will upper case every single letter in a string
+	
+	-s.split() 
+	
+	-will split every single word on th base on space 
+	
+	-tweet='Go Sports! #Sports'
+	
+	-tweet.split()
+	
+	-.split() will split on the basis of given character
+	
+	-Forexample:
+	
+		-tweet.split('#')
+		
+		-Result will be: ['Go Sports!','Sports']
+		
+		-it has split the string on the basis of #tag
+		
+	-Lets create a dictionary 
+		
+	-d={'k1':1,'k2':2}
+		
+	-d to display the values
+		
+	-d.keys()
+		
+	-this will return the keys from the dictionary
+		
+	-d.items() will return the items of a dictionary
+		
+	-d.values() will return the values only of the keys only of a dictionary 
+		
+	-Also there are some useful methods for a list as well
+		
+	-lst=[1,2,3]
+		
+	-lst.pop() it will pop the last item of a list (it means it will display the items of a list and delete it from the list)
+		
+	-1st = [1,2,3,4,5]
+		
+	-item=lst.pop()
+		
+	-so the list will have now [1,2,3,4]
+		
+	-item will have 5 stored in it
+		
+	-first=lst.pop(0) this will pop off the index 0 item
+		
+	-first will have 1 stored in it
+	
+	-1st.append('new') it will append 'new' at the end of a list
+		
+	-'x' in [1,2,3]
+	
+	-it will check x in list, as x is not present there so it will return false
+	
+	-'x' in ['x','y','z'], now this will give true
+	
+Tuple Unpacking:
+
+	-x=[(1,2),(3,4),(5,6)]
+	
+	-x[0] is the first tupple in a list that is (1,2)
+	
+	-x[0][0] will select the first tupple and then select the first element of that tupple that is 1
+	
+	-tuple unpacking is used in loops
+	
+		-for item in x:
+			print(item)
+			
+		-it will print all the tuples
+		
+		-tuple unpacking will allow us to unpack all these tuples when going through the list
+		
+		-for (a,b) in x:
+			print(a)
+			
+		-now it will print only 1,3,5 from the list
+		
+		-for (a,b) in x:
+			print(b)
+		
+		-it will print the second item of every tuple from the list that is 2,4,6
+		
+		-this is tuple unpacking,instead of printing tuple we are unpacking every tuple
+			
+		-for (a,b) in x:
+			print(a)
+			print(b)
+
+		-it will print 1,2,3 and then 4,5,6
+
+How to find Exercise Notebook of this course
+
+			
+	
