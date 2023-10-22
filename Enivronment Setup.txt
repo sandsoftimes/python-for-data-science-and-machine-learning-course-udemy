@@ -1,0 +1,50 @@
+-----------------------------------------------------------------------786------------------------------------------------------
+
+if u are new, go with the jupyter-notebook
+
+download anaconda from anaconda.com
+
+help 
+
+IPython notebook
+
+juliet and r notebook
+
+u can check keyboard shortcuts
+
+search for problems from the internet
+
+python for data Analysis
+
+exercises have solution files with them
+
+in exercise file we have questions and we have to answer that questions 
+
+question example: create an array of 10 zeros
+
+markdown cell which have text in it 
+
+we can also type text in jupyter notebook
+
+markdown formatting is used to give some heading or e.t.c 
+
+this is also supporting in python 
+
+ALT+Enter creates a new cell below the current cell which is useful for exercises
+
+how to open the jupyter notebook 
+
+type jupyter-notebook in terminal to open the jupyter notebook 
+
+ipynb files are used in python jupyter notebook 
+
+To save notebook do CNTRL S
+
+to create a new cell below with running do ALT enter 
+
+u can also save code as .py from the save as option of jupyter notebook
+
+so to avoid overwriting in the cell, do ALT plus ENTER in the previous cell to create an extra cell below
+
+markdown cell is used to give heading or notes 
+
