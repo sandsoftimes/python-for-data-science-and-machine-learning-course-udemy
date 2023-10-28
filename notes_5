@@ -1,0 +1,47 @@
+786!!!
+
+Video 3:
+
+Numpy Arrays
+
+import numpy as np
+
+cast a list as array using numpy
+
+np.eye to create identity matrix
+
+np.linespace()
+
+np.arange
+
+np.ones()
+
+np.zeros()
+
+np.random.rand()
+
+np.random.randn()
+
+np.random.randint()
+
+arr.reshape()
+
+ranarr.max()
+
+ranarr.min()
+
+ranarr.argmax()
+
+ranarr.argmin()
+
+arr.shape()
+
+arr.dtype
+
+from numpy.random import randint
+
+Video 4:
+
+Numpy array indexing 
+
+
